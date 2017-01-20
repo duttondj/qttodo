@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/danny/Fall2015/SoftwareDesign/P0/todo.cpp
+cstdlib
+-
+fstream
+-
+iostream
+-
+string
+-
+vector
+-
+
